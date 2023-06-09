@@ -26,4 +26,8 @@ Group the Stores and Cards columns to discover the revenue for each store and th
 billing_by_card = df[['Stores', 'Cards', 'Final Value']].groupby(['Stores', 'Cards']).sum()
 print(billing_by_card)
 
+""""
+
+"""
+
 
