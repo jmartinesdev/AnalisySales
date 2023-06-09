@@ -14,5 +14,12 @@ total_earning = df['Final Value'].sum()
 print(f'The billing for the month of December is {total_earning}')
 
 """
+Analyze revenue by store
+"""
 
+billing_per_store = df[['Stores', 'Final Value']]
+print(billing_per_store)
+
+"""
+grouping the store to check the billing per shop
 """
